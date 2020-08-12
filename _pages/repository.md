@@ -4,7 +4,7 @@ permalink: /repository/
 title: "Wooseong's repository"
 author_profile: true
 header:
-  image: "/images/view.jpg"
+  image: "/images/main3.jpg"
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
