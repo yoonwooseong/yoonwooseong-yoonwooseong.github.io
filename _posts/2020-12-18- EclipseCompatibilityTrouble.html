@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Eclipse 호환성 문제 해결하기"
+date: 2020-12-18 16:38:00 -0400
+background: '/img/posts/03.jpg'
+---
+
+<p>간혹 프로젝트를 Import하면 호환성 문제로 인해 많은 이슈가 발생한다.</p>
+
+<p>이를 해결하기 위한 몇가지 방법을 소개합니다.</p>
+
+<h2 class="section-heading">첫번째 방법</h2>
+<p>1. 프로젝트 우클릭 Build Path(Configure Build Path) - Java Build Path(Libraries 탭) - Tomcat 버전 확인 - JRE System library 버전 확인 (추가시 installed JREs)</p>
+<p>2. 이클립스 Preferences - Server - runtime Environment - 톰캣 Edit - JRE 버전 확인</p>
+<p>3. 다시 Build Path(Configure Build Path) - Project Facets - Java 버전 및 Dynamic Web Module 확인</p>
+<p>셋 다 동일한 Java version으로 맞춰주기</p>
+
+<h2 class="section-heading">두번째 방법</h2>
+<p>이클립스 - Window - Show View - Other - Markers 후 콘솔창 옆 Markers에서 에러나는 부분 Quick 솔루션 클릭</p>
+
+<h2 class="section-heading">그 외</h2>
+<p> * 이클립스 최신버전은 자바 1.8 이상 버전이 필요</p>
+<p> * 자바를 여러개 보유 가능</p>
+
