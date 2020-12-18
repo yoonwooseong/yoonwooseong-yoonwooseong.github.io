@@ -1,16 +1,16 @@
-title:              Clean Blog
+title:              LEGO CODING
 email:              dntjd851@naver.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/LegoCoding"
+description:        Wooseong's Blog
+author:             Yoon wooseong developer
+baseurl:            "/yoonwooseong.github.io"
 url:                "https://yoonwooseong.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
+twitter_username:   null
+github_username:    yoonwooseong
+facebook_username:  null
+instagram_username:  95wooseong
+linkedin_username:  null
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
