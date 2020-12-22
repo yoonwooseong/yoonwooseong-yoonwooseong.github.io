@@ -1,0 +1,26 @@
+---
+layout: post
+title: "비동기와 동기"
+subtitle: "자바스크립트 비동기 처리와 콜백 함수"
+date: 2020-12-22 10:30:00 -0400
+background: '/img/posts/04.jpg'
+---
+
+<h4 class="section-heading">비동기 처리란?</h4>
+
+<p>자바스크립트의 비동기 처리란 특정 코드가 끝날때 까지 코드의 실행을 멈추지 않고 다음 코드를 먼저 실행하는 특성을 의미한다.</p>
+
+<p>비동기 처리를 예를 들자면 Ajax, setTimeout이 있다.</p>
+
+<h4 class="section-heading">콜백 함수</h4>
+
+<p>비동기 처리는 Ajax로 데이터를 불러오기 전에 바로 다음 코드를 실행시켜 오류를 발생시킬 수 있다. 따라서 콜백(callback) 함수를 이용해 그 문제를 해결할 수 있다.</p>
+
+<p>콜백 함수는 예약과 같다. 예약시간 전까지 무엇을 하던 그 시점에 원하는 동작을 수행할 수 있다.</p>
+
+<p>하지만 콜백 함수는 콜백 지옥을 만들 수 있는 문제점이 존재한다. 예를 들어 데이터를 받아오고 난 뒤에 사용자 인증을 하고 그 뒤에 또 다른 작업을 하는 등 계속 꼬리를 무는 경우 코드가 상당히 지저분해지고 복잡해지는 것을 콜백 지옥이라고 한다.</p>
+
+<p>이 문제를 해결하기 위해서는 콜백 함수를 분리해주면 된다. 또는 더 좋은 방법으로 Promise / Async를 사용하는 방법이 있다.</p>
+
+<blockquote class="blockquote">출처 : https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/</blockquote>
+
