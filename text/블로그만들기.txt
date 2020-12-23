@@ -1,6 +1,0 @@
-ruby 설치
-jekyll 설치
-테마 설치
-github.io 만들기
-
-서버실행
