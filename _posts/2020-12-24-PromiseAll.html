@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Promise.all()"
+subtitle: "Promise.all()을 사용하여 네트워크 속도를 향상시키자"
+date: 2020-12-24 13:37:00 -0400
+background: '/img/posts/03.jpg'
+---
+<div style="text-align:center;">
+    <img class="npmimg" src="/img/posts/promiseall.png" alt="promiseallimg" width="500px">
+</div>
+
+promise에 대한 지식이 없으면 여기서 기초 개념을 확인하고 오자. : <a href="https://yoonwooseong.github.io/yoonwooseong.github.io/2020/12/22/Promise.html">간단한 Promise 설명 보러 가기</a>
+
+<h4 class="section-heading">Promise.all이란?</h4>
+
+<p>쉽게 예를 들면, 동시에 API에 접속해 데이터를 가져와 resolve로 반환해주는 것으로 생각한다.</p>
+
+<p>Promise.all() 메서드는 순회 가능한 객체에 주어진 모든 프로미스가 이행한 후, 혹은 프로미스가 주어지지 않았을 때 이행하는 Promise를 반환합니다.</p>
+
+<h4 class="section-heading">왜 사용할까?</h4>
+쉽게 그림을 보며 이해해보자.
+
+<border>사용 전(빨간 부분)</border>
+<div style="text-align:center;">
+    <img class="Nonpromise" src="/img/posts/Nonpromise.png" alt="Nonpromise" width="500px">
+</div>
+<p>위 그림과 같이 사용 전은 위에 API를 불러온 뒤 다음에 처리한다.</p>
+
+<border>사용 후</border>
+<div style="text-align:center;">
+    <img class="usePromise" src="/img/posts/usePromise.png" alt="usePromise" width="500px">
+</div>
+<p>위 그림은 사용 후 API를 동시에 불러오는 작업을 진행한다.</p>
+
+<h4 class="section-heading">예제 또는 방식</h4>
+
+Promise.all([p1, p2, p3]).then(values => {<br>
+    console.log(values); // [3, 1337, "foo"]<br>
+  });<br>
+
+
+
+<blockquote class="blockquote">자세한 내용 및 출처 : <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/all">https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/all</a></blockquote>
+
