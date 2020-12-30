@@ -1,0 +1,69 @@
+---
+layout: post
+title: "WebSocket?"
+subtitle: "양방향 통신을 지원하는 웹소켓에 대해 알아보자."
+date: 2020-12-30 11:28:00 -0400
+background: '/img/posts/04.jpg'
+---
+<div style="text-align:center;">
+    <img class="websocket" src="/img/posts/websocket.png" alt="websocket" width="500px">
+</div>
+
+<h3 class="section-heading">웹 소켓(Web socket)이란?</h3>
+
+<p>HTML5 순수 웹 환경에서 연결 지향 양방향 통신을 지원하는 것</p>
+
+<p>AJax, Comet은 모두 Polling 방식이다.</p>
+
+<ul>
+  <li>Polling : 클라이언트가 일정 주기마다 요청을 보내고 서버가 응답받는 방식, 불필요한 응답과 트래픽 발생</li>
+  <li>Long Polling : 이벤트시에만 응답, 불필요한 트래퍽 x 그러나 이벤트 많으면 과부하</li>
+  <li>Streaming : 응답 완료시키지 않고 계속 연결, 길어질수록 유효성 관리 부담</li>
+</ul>
+
+<p>
+  웹 소켓은 웹 서버와 웹 브라우저가 지속적으로 연결된 TCP라인을 통해 실시간으로
+  데이터를 주고 받을 수 있도록 하는 HTML5의 새로운 사양이다. 따라서 웹 소켓을
+  이용하면 일반적인 TCP소켓과 같이 연결지향 양방향 전이중 통신이 가능하다.
+</p>
+
+<ul>
+  <li>클라이언트 : 웹 소켓이 제공하는 자바스크립트 API를 이용해 서버에 연결하고 데이터를 송/수신하는 코드를 구현</li>
+  <li>서버 : 웹 소켓 프로토콜에 맞는 전용 장치 구축</li>
+</ul>
+
+<p>지원되는 브라우저 최신 사파리, 파이어폭스 및 크롬</p>
+
+<h4 class="section-heading">웹 소켓 클라이언트</h4>
+
+<p>브라우저에서 WebSocket의 기본 스펙</p>
+
+<ul>
+    <li>서버 연결<br>var wSocket = new WebSocket("ws://domain/demo"); (wss 보안 봉신)</li>
+    <li>데이터 송신<br>wSocket.send("메세지");</li>
+    <li>데이터 수신<br>서버에서 푸시하는 데이터를 받으려면 message 이벤트를 구현<br>wSocket.onmessage = function(e)  - e를 통해 수신된 데이터 조회 e.data</li>
+    <span>클라이언트 측 코드는 직관적이다. 그러나 클라이언트와 통신하는 서버가 존재해야 한다.</span>
+</ul>
+
+<h4 class="section-heading">웹 소켓 서버</h4>
+
+<p>
+  일반적인 TCP 소켓과는 다른 프로토콜로 설계된 웹 소켓. 따라서 웹 소켓 서버 사양에 맞게 구현해야 한다.
+  ws모듈 이용 : 처음에 웹소켓이 연결될 때, wss.on('connection', callback) 함수가 실행
+  다양한 오픈소스가 제공되고 있다. pywebsocket, phpwebsocket, jWebSocket, web-socket-ruby 와 같은 모듈을 이용하면 쉽게 구축 가능
+</p>
+
+<p>자바로 구현된 jWebSocket의 jWebSocketClient를 받는다. <br>(jWebSocket 라이브러리는 http://jwebsocket.org/ )</p>
+
+<p>아파치 웹서버 or 톰켓으로 구동 / 자바 가상 머신 설치 필요 <br>(다음의 퀵스타트를 참고 하자 http://code.google.com/p/jwebsocket/wiki/QuickStart )</p>
+
+<h4 class="section-heading">socket.io</h4>
+
+<p>
+  socket.io란 위에서 설명한 WebSocket과 같이 클라이언트와 서버의 양방향 통신을 가능하게 해주는 모듈.
+  통신을 시작할때 가장 적절한 방법을 찾아 메세지를 보내준다.
+</p>
+
+<blockquote class="blockquote">참고 : <a href="https://m.mkexdev.net/98">https://m.mkexdev.net/98</a></blockquote>
+<blockquote class="blockquote">참고 : <a href="http://www.secmem.org/blog/2019/08/17/websocket-socketio/">http://www.secmem.org/blog/2019/08/17/websocket-socketio/</a></blockquote>
+
