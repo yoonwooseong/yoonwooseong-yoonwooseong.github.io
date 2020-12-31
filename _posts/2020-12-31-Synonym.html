@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Synonym 이란?"
+subtitle: "시노님(Synonym), 별명을 주는 것"
+date: 2020-12-31 11:54:00 -0400
+background: '/img/posts/05.jpg'
+---
+<div style="text-align:center;">
+    <img class="synonym" src="/img/posts/synonym.png" alt="synonym" width="500px">
+</div>
+
+<h3 class="section-heading">시노님(Synonym) 이란?</h3>
+
+<p>데이터베이스 객체는 각자 고유한 이름이 있다. 이 객체들의 가명을 주어 편하게 사용하도록 하는 것이 Synonym이다. ALIAS와 비슷하다. 다만 시노님은 영구적으로 사용가는하고 보통 다른 유저의 객체를 참조할 때 많이 사용합니다.
+  실제로 다른 유저의 객체를 사용할 때 유저의 이름과 객체의 실제 이름을 사용하는데 그 두개를 감춤으로써 데이터베이스의 보안을 개선하기 위해 사용되어지기도 합니다. 
+</p>
+
+<p>시노님은 PUBLIC과 PRIVATE타입이 있는데 PUBLIC은 모든 사용자가 접근할 수 있고, PRIVATE는 특정사용자에게만 참조가 가능합니다.</p>
+
+<h4 class="section-heading">시노님 생성 및 문법/h4>
+
+<ul>
+  <li>CREATE OR REPLACE [PUBLIC / PRIVATE] SYNONYM [시노님명] FOR [객체명]</li>
+  <li>SELECT * FROM USER_SYNONYMS</li>
+  <li>SELECT * FROM ALL_SYNONYMS</li>
+  <li>GRANT SELECT ON [시노님명] TO [계정명]</li>
+  <li>DROP [PUBLIC/PRIVATE] SYNONYM [시노님명]</li>
+</ul>
+
+<blockquote class="blockquote">참고 : <a href="https://coding-factory.tistory.com/421">https://coding-factory.tistory.com/421</a></blockquote>
+
