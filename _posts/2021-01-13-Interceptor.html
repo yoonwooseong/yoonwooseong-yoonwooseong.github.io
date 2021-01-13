@@ -1,0 +1,27 @@
+---
+layout: post
+title: "인터셉터(Interceptor)란?"
+subtitle: "인터셉터를 통해 세션을 먼저 확인하기."
+date: 2021-01-13 16:15:00 -0400
+background: '/img/posts/02.jpg'
+---
+<div style="text-align:center;">
+    <img class="interceptor" src="/img/posts/interceptor.png" alt="interceptor" width="500px">
+</div>
+
+<h3 class="section-heading">인터셉터(Interceptor)란?</h3>
+
+<p>Controller에 들어오는 요청과 응답을 가로채는 역할로DispatcherServlet이 실행된 뒤 호출된다.</p>
+
+<p>Interceptor는 HandlerInterceptor 인터페이스를 반드시 implements 해야한다.</p>
+
+<p>Interceptor는 세션에 로그인 정보 여부와 권한 여부 등을 체크하는 역할을 수행하는데 사용한다.</p>
+
+<p>
+  HandlerInterceptor안에 있는 메서드인 preHandle()은 Controller보다 먼저 실행되는 메서드이며, 
+  postHandle()은 Controller가 수행되고 화면에 보여지기 직전 실행되는 메서드이므로 원하는 사이클에
+  코드를 작성하면 된다.
+</p>
+
+<blockquote class="blockquote">참고 : <a href="https://developer-jjun.tistory.com/16">https://developer-jjun.tistory.com/16</a></blockquote>
+
