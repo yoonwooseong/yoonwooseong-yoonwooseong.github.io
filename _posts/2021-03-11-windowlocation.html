@@ -1,0 +1,41 @@
+---
+layout: post
+title: "[Javascript] window.location 객체"
+subtitle: "window.location 객체를 알아보자."
+date: 2021-03-11 08:15:00 -0400
+background: '/img/posts/06.jpg'
+---
+
+<h4 class="section-heading">window.location</h4>
+
+<br>
+
+<h5>Properties</h5>
+
+<br>
+
+<ul>
+    <li>hash : 주소값에 붙어있는 anchor값 반환 #test</li>
+    <li>host : URL의 도메인과 포트 반환 www.test.com:8080</li>
+    <li>hostname : URL의 도메인 반환 www.test.com</li>
+    <li>href : URL반환 http://www.test.com:8080/search?q=child#test</li>
+    <li>origin 프로토콜 + URL의 도메인 + 포트 반환 http://www.test.com:8080</li>
+    <li>pathname : URL 경로 반환 /search</li>
+    <li>port : 서버포트 반환 8080</li>
+    <li>protocol : 프로토콜 반환 http:</li>
+    <li>search : URL에 붙은 매개변수 반환 ?q=child</li>
+</ul>
+
+<br>
+
+<h5>Methods</h5>
+
+<ul>
+    <li>assign(url) : 새로운 주소로 이동</li>
+    <li>reload(forceget) : 현재 페이지 새로고침</li>
+    <li>replace(url) : 새로운 주소 이동 (세션 히스토리가 남지 않아 뒤로가기 불가)</li>
+</ul>
+
+<br>
+
+<blockquote class="blockquote">참고 및 출처: <a href="https://august5pm.tistory.com/8">https://august5pm.tistory.com/8</a></blockquote>
