@@ -1,9 +1,0 @@
-html 페이지 로딩 순서
-
-import
-head태그
-body태그
-
-body onload -> window onload
-$(document).ready  onload
-순서

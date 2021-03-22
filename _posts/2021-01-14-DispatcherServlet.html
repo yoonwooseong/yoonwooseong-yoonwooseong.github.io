@@ -1,0 +1,23 @@
+---
+layout: post
+title: "[Spring]DispatcherServlet이란?"
+subtitle: "Spring에서 보이는 DispatcherServlet이 무슨 역할을 하는지 알아보자. "
+date: 2021-01-14 17:02:00 -0400
+background: '/img/posts/03.jpg'
+---
+<div style="text-align:center;">
+    <img class="dispatcherServlet" src="/img/posts/dispatcherServlet.png" alt="dispatcherServlet" width="500px">
+</div>
+
+<h3 class="section-heading">Dispatcher-Servlet이란?</h3>
+
+<p>Servlet Container에서 HTTP프로토콜을 통해 들어오는 모든 요청을 프레젠테이션 계층의 제일 앞에서 둬 중앙집중식으로 처리해주는 프론트 컨트롤러</p>
+
+<p>이 말이 무엇이냐? 간단히 클라이언트가 URL을 호출을 하면 Controller 오기 전에 무조건 먼저 거치 듯 클라이언트와 서버 사이에 있는 녀석</p>
+
+<p>이 녀석은 해당 어플리케이션으로 들어오는 모든 요청을 핸들링해주며 일일이 url을 등록해줘야 했던 방식을 쉽게 만들어 주었다.</p>
+
+<p>단 점이 있다면 모든 요청을 처리하다 보니 전부 Controller로 넘겨버리는데 &lt;mvc:resources/&gt; 를 사용하여</p>
+
+<blockquote class="blockquote">참고 : <a href="https://mangkyu.tistory.com/18">https://mangkyu.tistory.com/18</a></blockquote>
+

@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Web Server와 WAS차이"
+subtitle: "Web Server와 WAS(Web Application Server)차이"
+date: 2021-02-03 15:25:00 -0400
+background: '/img/posts/02.jpg'
+---
+
+<div style="text-align:center;">
+    <img class="wswas" src="/img/posts/wswas.png" alt="wswas" width="500px">
+</div>
+
+<h4 class="section-heading">Web Server</h4>
+
+<p>
+    웹 브라우저 클라이언트로부터 HTTP 요청을 받아 정적인 콘텐츠(.html .css) 등을 제공하는 컴퓨터 프로그램.
+
+    <br>
+
+    정적인 컨텐츠 제공 & 동적인 컨텐츠 요청(Request)을 WAS에 전달
+    ex) Apache Server, Nginx 등
+</p>
+
+<h4 class="section-heading">Web Application Server</h4>
+
+<p>
+    DB 조회나 다양한 로직 처리를 요구하는 동적인 컨텐츠를 제공하기 위해 만들어진 Application Server로 WAS = Web Server + Web Container
+
+    <br>
+
+    웹 컨테이너(Web Container) 또는 서블릿 컨테이너(Servlet Container)라 불린다.
+    주요 기능으로 프로그램 실행 환경, DB 접속 기능 제공, 트랜잭션 관리 기능, 비즈니스 로직 수행
+    ex) Tomcat, JBoss, WebSphere 등
+
+</p>
+
+<h4 class="section-heading">왜 구분을 지어야 하는가</h4>
+
+<ul>
+    <li>기능 분리하여 서버 부하 방지</li>
+    <li>물리적으로 분리하여 보안 강화</li>
+    <li>여러대의 WAS 연결</li>
+    <li>여러 웹 어플리케이션 서비스 가능</li>
+</ul>
+
+<blockquote class="blockquote">참고 및 출처: <a href="https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html">https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html</a></blockquote>
+
+

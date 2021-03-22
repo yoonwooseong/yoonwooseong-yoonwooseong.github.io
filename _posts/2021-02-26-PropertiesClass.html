@@ -1,0 +1,38 @@
+---
+layout: post
+title: "[JAVA]java.util.properties"
+subtitle: "java.util.properties에 대해 알아보자."
+date: 2021-02-26 08:05:00 -0400
+background: '/img/posts/02.jpg'
+---
+
+<h4 class="section-heading">properties class란?</h4>
+
+<br>
+
+<ul>
+    <li>Map 계열의 컬렉션 프레임워크와 같이 동작하는 파일</li>
+    <li>"Key=Value" 형태인 "파일이름.properties" 또는 ".xml"파일</li>
+    <li>key를 주면 value로 반환</li>
+    <li>DB의 연결정보 등 저장해두는 용도로 사용</li>
+</ul>
+
+<h5>사용 목적</h5>
+
+<p>열거형 클래스나 컬렉션 API와 비슷한 파일로 코드를 수정하지 않고 이 파일의 값만 바꿔 정보를 변경하는 목적으로 사용</p>
+
+<h5>매서드</h5>
+
+<br>
+
+<ul>
+    <li>vode load(FileInputStream file) : 스트림으로 열린 properties의 객체를 로드</li>
+    <li>vode load(FileReader file ) : 스트림으로 열린 properties의 객체를 로드</li>
+    <li>string getProperty(String key) : key값을 제공하면 해당하는 Vaule를 문자열로 반환</li>
+    <li>Object setProperty(String key, value) : Properties 객체에 key와 vaule를 저장</li>
+    <li>void store(스트림객체, 주석) : 객체에 저장된 내용을 파일에 씀 (OutputStream, Writer 계열만 가능)</li>
+</ul>
+
+<blockquote class="blockquote">참고 및 출처: <a href="https://codevang.tistory.com/163">https://codevang.tistory.com/163</a></blockquote>
+
+

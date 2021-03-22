@@ -1,0 +1,69 @@
+---
+layout: post
+title: "간단 명료하게 Node.js란?"
+subtitle: "Node.js가 무엇인지 적어보자."
+date: 2020-12-23 15:42:00 -0400
+background: '/img/posts/02.jpg'
+---
+
+<div style="text-align:center;">
+    <img class="npmimg" src="/img/posts/nodejs.png" alt="npmimg" width="500px" align="center">
+</div>
+
+<h4 class="section-heading">Node.js란?</h4>
+
+<p>
+    Node.js는 확장성 있는 네트워크 애플리케이션(특히 서버 사이드) 개발에 사용되는 소프트웨어 플랫폼이다. 작성 언어로 자바스크립트를 활용하며 Non-blocking I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.
+    내장 HTTP 서버 라이브러리를 포함하고 있어 웹 서버에서 아파치 등의 별도의 소프트웨어 없이 동작하는 것이 가능하며 이를 통해 웹 서버의 동작에 있어 더 많은 통제를 가능케 한다.
+</p>
+
+<ul style="list-style:none;">
+    <li># Google V8 javascript engine</li>
+    <li># 고성능 네트워크 서버</li>
+    <li># 단일 쓰레드 이벤트 루프 기반(Single Thread & Event Loop)</li>
+    <li># 비동기 I/O 처리(Non-Blocking I/O)</li>
+    <li># 자바스크립트</li>
+    <li># 개발 생산성 향상</li>
+    <li># NPM(방대한 모듈 제공)</li>
+</ul>
+
+<h4 class="section-heading">가장 중요한 특징</h4>
+
+<p>
+    단일쓰레드 이벤트 기반 비동기 방식 (Single Thread & Event Loop) : 하나의 쓰레드가 request를 받으면 바로 다음 처리에 요청을 보내놓고 다른 작업을 처리하다가 먼저 요청한 작업이 끝나면 이벤트를 받아 응답을 보낸다.
+    동시에 request가 오더라도 처리가 완료될때까지 기다리지 않아 서버 부하가 적다.
+</p>
+
+<p>
+    이에 대비되는 쓰레드 기반 동기방식(Blocking I/O) : 기존 업무 처리가 완료되기 전에 또다른 request가 있으면 새로운 쓰레드가 업무를 처리. 동시에 request가 많아지면 많은 쓰레드가 필요하게 되어 서버 과부하가 될 수 있다.
+</p>
+
+<h4 class="section-heading">장점과 단점</h4>
+<br>
+<ul>
+    <li>자바스크립트를 사용하여 서버단 로직을 처리가능</li>
+    <li>개발이 빠르고 서버 설치 및 화면 띄우기 금방 처리</li>
+    <li>Non-Blocking I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능</li>
+    <li>가볍고 이벤트 기반 비동기방식으로 서버 무리가 적다.</li>
+    <li>npm을 통한 다양한 모듈(패키지) 제공</li>
+</ul>
+<br>
+<ul>
+    <li>이벤트 기반이라 콜백함수의 늪에 빠질 수 있다.</li>
+    <li>비동기 방식이므로 java 개발처럼 프로그래밍하면 문제가 발생한다.</li>
+    <li>단일 쓰레드이기 때문에 작업 자체가 많이 걸리는 웹서비스에는 어울리지 않는다.</li>
+    <li>모든 케이스에 대해 소스코드를 검증해야한다.(에러 날 경우 알기 쉽지 않다.)</li>
+</ul>
+
+<h4 class="section-heading">이러한 서비스들과 함께</h4>
+<br>
+<ul>
+    <li>Netflix</li>
+    <li>Facebook</li>
+    <li>Uber</li>
+    <li>Linkedin</li>
+    <li>Paypal</li>
+</ul>
+
+<blockquote class="blockquote">출처 : https://junspapa-itdev.tistory.com/3</blockquote>
+
