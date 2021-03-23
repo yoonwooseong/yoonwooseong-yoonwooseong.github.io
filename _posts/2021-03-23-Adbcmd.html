@@ -1,0 +1,37 @@
+---
+layout: post
+title: "[Android]ADB? 명령어?"
+subtitle: "안드로이드 개발 시 사용하는 ADB 명령어"
+date: 2021-03-23 15:06:00 -0400
+background: '/img/posts/05.jpg'
+---
+
+<h4 class="section-heading">ADB란?</h4>
+
+<p>
+    ADB란 Android Debug Bridge의 약자로 Debugging Tool이다.
+    안드로이드가 올라가는 Target Board의 Debugging에 사용된다.
+    쉽게, cmd에서 안드로이드 기반 Device와 연결 가능하다.
+</p>
+
+<div style="text-align:center;">
+    <img class="adb" src="/img/posts/adb.PNG" alt="adb" width="400px">
+</div>
+
+<br>
+
+<h5>내가 사용해본 ADB 명령어</h5>
+
+<br>
+
+<ul>
+    <li>adb connect {IP} : 안드로이드 기반 device와 IP로 연결</li>
+    <li>adb devices : 연결된 안드로이드 장치 목록 나열</li>
+    <li>adb install -r {apk명} : 정합하고자 하는 apk 설치</li>
+    <li>adb uninstall {패키지명} : 정합된 APP 삭제</li>
+    <li>adb reboot : 장치 재부팅</li>
+</ul>
+
+<br>
+
+<blockquote class="blockquote">참고 및 출처: <a href="https://m.blog.naver.com/PostView.nhn?blogId=dong880510&logNo=140155410184&proxyReferer=https:%2F%2Fwww.google.com%2F">https://m.blog.naver.com/PostView.nhn?blogId=dong880510&logNo=140155410184&proxyReferer=https:%2F%2Fwww.google.com%2F</a></blockquote>
