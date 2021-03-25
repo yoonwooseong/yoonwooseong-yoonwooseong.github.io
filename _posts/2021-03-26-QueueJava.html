@@ -1,0 +1,69 @@
+---
+layout: post
+title: "[JAVA]Queue?"
+subtitle: "JAVA에서의 Queue 사용법"
+date: 2021-03-26 08:23:00 -0400
+background: '/img/posts/06.jpg'
+---
+
+<h4 class="section-heading">Queue란?</h4>
+
+<p>
+    Queue는 줄을 지어 순서대로 처리되는 자료구조로 First In First Out의 형태를 가진다.
+    말 그대로 먼저 들어온 뎅터가 먼저 나가는 구조를 말한다. 사용 예제로는 그래프의 넓이 우선탐색인
+    BFS와 컴퓨터 버퍼(큐)에서 사용되며 맨 앞쪽의 데이터 삭제를 Dequeue, 맨 마지막의 데이터 추가를 Enqueue라 한다.
+</p>
+
+<h5>Queue 사용법 - 생성</h5>
+
+<p>Queue를 JAVA에서 사용하기 위해서는 Queue와 LinkedList 모두 Import가 필요하다.</p>
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">java.util.LinkedList</span><span style="color: #333333">;</span>
+    <span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">java.util.Queue</span><span style="color: #333333">;</span>
+    Queue<span style="color: #333333">&lt;</span>Integer<span style="color: #333333">&gt;</span> queue <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> LinkedList<span style="color: #333333">&lt;&gt;();</span> 
+    Queue<span style="color: #333333">&lt;</span>String<span style="color: #333333">&gt;</span> queue <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> LinkedList<span style="color: #333333">&lt;&gt;();</span>
+    </pre>
+</div>
+    
+<br>
+
+<h5>Queue 사용법 - 값 추가</h5>
+
+<p>Queue에 값을 추가할때는 add(value), offer(value)를 사용하는데 add는 삽입 성공 여부에 따라 true, IllegalStateException을 반환한다.</p>
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">Queue<span style="color: #333333">&lt;</span>Integer<span style="color: #333333">&gt;</span> stack <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> LinkedList<span style="color: #333333">&lt;&gt;();</span> 
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">add</span><span style="color: #333333">(</span><span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">);</span>
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">add</span><span style="color: #333333">(</span><span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">);</span>
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">offer</span><span style="color: #333333">(</span><span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">);</span>
+    </pre>
+</div>
+    
+<br>
+
+<h5>Queue 사용법 - 값 삭제</h5>
+
+<p>Queue에 값을 삭제할때는 poll(), remove()를 사용하는데 poll()은 큐가 비어있으면 null로 반환하며 맨 앞에 값을 제거한다. clear()시 모든 요소 제거</p>
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">Queue<span style="color: #333333">&lt;</span>Integer<span style="color: #333333">&gt;</span> queue <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> LinkedList<span style="color: #333333">&lt;&gt;();</span> 
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">offer</span><span style="color: #333333">(</span><span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">);</span>
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">offer</span><span style="color: #333333">(</span><span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">);</span>
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">offer</span><span style="color: #333333">(</span><span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">);</span>
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">poll</span><span style="color: #333333">();</span>
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">remove</span><span style="color: #333333">();</span>
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">clear</span><span style="color: #333333">();</span>
+    </pre>
+</div>
+    
+<br>
+
+<h5>Queue 사용법 - 값 참조</h5>
+
+<p>Queue에 맨 앞의 값을 참조하고 싶을때는 peek() 메서드를 사용한다.</p>
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">Queue<span style="color: #333333">&lt;</span>Integer<span style="color: #333333">&gt;</span> queue <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> LinkedList<span style="color: #333333">&lt;&gt;();</span>
+
+    queue<span style="color: #333333">.</span><span style="color: #0000CC">peek</span><span style="color: #333333">();</span>
+</pre></div>
+
+
+<blockquote class="blockquote">참고 및 출처: <a href="https://coding-factory.tistory.com/602">https://coding-factory.tistory.com/602</a></blockquote>
