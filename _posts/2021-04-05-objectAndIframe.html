@@ -1,0 +1,46 @@
+---
+layout: post
+title: "[HTML]object태그란?"
+subtitle: "object태그에 대해 알아보자(feat.iframe, embed)"
+date: 2021-04-05 16:05:00 -0400
+background: '/img/posts/03.jpg'
+---
+
+<h4 class="section-heading">object 태그란?</h4>
+
+<p>
+    object 태그는 HTML안에 멀티미디어 객체, 다른 HTML문서나 pdf, 플러그인을 넣을 수 있는 태그이다.
+    그러나 object는 iframe을 사용할 수 없을 상황에 쓰이는 퇴화 태그로 간주된다.
+    object태그는 설정을 업데이트 해도 반영되지 않는다.
+</p>
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;orgBroadcast&quot;</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;sizeclass&quot;</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;position: absolute; top: 0px; left: 0px; width: 1280px; height: 720px;&quot;</span><span style="color: #007700">&gt;</span>
+	<span style="color: #007700">&lt;object</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;broadcast&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;video/broadcast&quot;</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;position: absolute; width: 100%; height: 100%;&quot;</span><span style="color: #007700">&gt;</span>
+		<span style="color: #007700">&lt;param</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;zindex&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;0&quot;</span> <span style="color: #007700">/&gt;</span>
+	<span style="color: #007700">&lt;/object&gt;</span>
+<span style="color: #007700">&lt;/div&gt;</span>
+<span style="color: #007700">&lt;div</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;video&quot;</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;sizeclass&quot;</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;position: absolute; top: 0px; left: 0px; width: 1280px; height: 720px;&quot;</span><span style="color: #007700">&gt;</span>
+	<span style="color: #007700">&lt;object</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;video/mpeg&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;videoObj&quot;</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;position: absolute; width: 100%; height: 100%; z-index: 1; &quot;</span><span style="color: #007700">&gt;</span>
+		<span style="color: #007700">&lt;param</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;zindex&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;1&quot;</span> <span style="color: #007700">/&gt;</span>
+	<span style="color: #007700">&lt;/object&gt;</span>
+<span style="color: #007700">&lt;/div&gt;</span></pre>
+</div>
+
+<br>
+
+<h5>vs iframe</h5>
+
+<p>
+    iframe도 마찬가지로 HTML 내에 다른 HTML 또는 플래쉬 플레이어를 넣어 재생 시킬 수 있는 태그이다.
+    iframe은 HTML 4.01부터 모든 브라우저에서 지원한다. 차이점은 object태그와 달리 iframe은 사용자 환경설정에 맞춰 역동적으로
+    반응하고 삽입된 객체도 실시간으로 업데이트된다.
+</p>
+
+<h5>vs embed</h5>
+
+<p>
+    embed 태그는 정식으로 기술된 요소는 아니었으나 HTML5에서 정식으로 제정되었다.
+    object 태그와는 달리 종료퇴그가 없으므로 자식 태그를 둘 수 없는 차이점이 있다.
+</p>
+
+<blockquote class="blockquote">참고 및 출처: <a href="https://devbin.kr/html-object-%EC%99%80-iframe-%ED%83%9C%EA%B7%B8/">https://devbin.kr/html-object-%EC%99%80-iframe-%ED%83%9C%EA%B7%B8/</a></blockquote>
