@@ -47,4 +47,4 @@ HTML, jsp 모두 인터프리터 언어이다. 따라서 위에서 아래대로 
 참고하도록 하자.
 
 
-##### 저의 발전에 도움을 주신 개발자분 [출처](https://jeong-pro.tistory.com/90)
+##### 오늘 성장에 도움을 주신 개발자분 [출처](https://jeong-pro.tistory.com/90)
