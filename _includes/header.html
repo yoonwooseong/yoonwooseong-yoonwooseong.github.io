@@ -1,3 +1,14 @@
+<style>
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+</style>
+
 <div class="container">
   <div class="row">
     <div class="col col-12">
@@ -7,6 +18,10 @@
         <div class="logo">
           <a class="logo__link" href="{{site.baseurl}}/">
           {%if site.data.settings.logo %}
+            <svg class="icon icon-Woo"><use xlink:href="#icon-Woo"></use></svg>
+            <symbol id="icon-Woo" viewBox="0 0 32 32">
+              <path d="M0 32c4-12 14.469-32 32-32-8.219 6.594-12 22-18 22s-6 0-6 0l-6 10h-2z"></path>
+              </symbol>
             <img class="logo__image" src="/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
           {% else %}
             {{ site.data.settings.title }}
