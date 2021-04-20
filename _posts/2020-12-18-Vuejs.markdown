@@ -3,7 +3,7 @@ layout: post
 title:  "Vue.js란?"
 date:   2020-12-18 14:08:00 +0300
 image:  vue.png
-tags:   network
+tags:   framework
 ---
 
 
