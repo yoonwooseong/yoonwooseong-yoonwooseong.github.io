@@ -2,7 +2,7 @@
 layout: post
 title:  "Eclipse JAVA와의 호환성 문제 해결하기"
 date:   2020-12-18 16:38:00 +0300
-image:  01.jpg
+image:  eclipse.jpg
 tags:   Setting
 ---
 
