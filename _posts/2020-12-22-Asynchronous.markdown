@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[JS]비동기와 동기"
+title:  "JS-비동기(1) : 비동기와 동기"
 date:   2020-12-22 10:00:00 +0300
-image:  06.jpg
+image:  05.jpg
 tags:   javascript
 ---
 
@@ -37,6 +37,6 @@ promise와 async는 다음 포스팅을 참고해보자.
 
 #### 오늘 성장에 도움을 주신 개발자분
 
-[출처1](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/) 
+[출처](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/) https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/
 
 감사합니다.

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[JS]async와 await?"
+title:  "JS-비동기(3) : async와 await?"
 date:   2020-12-22 11:00:00 +0300
-image:  05.jpg
+image:  07.jpg
 tags:   javascript
 ---
 
@@ -40,6 +40,6 @@ async & await에서 예외처리 하는 법은 try catch이다. 이는 네트워
 
 #### 오늘 성장에 도움을 주신 개발자분
 
-[출처1](https://joshua1988.github.io/web-development/javascript/js-async-await/) 
+[출처](https://joshua1988.github.io/web-development/javascript/js-async-await/) https://joshua1988.github.io/web-development/javascript/js-async-await/
 
 감사합니다.
