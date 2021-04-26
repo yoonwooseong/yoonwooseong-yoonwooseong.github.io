@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Logging 하는법?"
+title: "Promise.all이란?"
 date: 2020-12-24 13:37:00 +0300
 image: imgPromiseall.png
 tags: javaScript

@@ -9,17 +9,17 @@ description: 우성이가 공부하며 알게 된 내용을 기록하는 블로�
 # Author Settings
 author:
   name: Wooseong Yoon
-  image: 01.jpg
+  image: main.jpg
   say-hello: Hello, I’m <strong>Wooseong Yoon</strong>
-  bio: Umm.
+  bio: 개발을 하며 새로운 지식을 습득하고 성장하고 있는 모습을 기록하기 위한 블로그입니다.
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+#twitter: https://twitter.com/ # Add your Twitter handle
+#facebook: https://facebook.com/ # Add your Facebook handle
+#dribbble: https://dribbble.com/ # Add your Dribbble handle
+instagram: https://www.instagram.com/95wooseong/ # Add your Instagram handle
+#pinterest: https://pinterest.com/ # Add your Pinterest handle
 
 #-------------------------------
 # Comment Section (Disqus)
@@ -28,7 +28,7 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 #-------------------------------
 # Instagram Feed
 instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: artemsheludko_ # Add instagram username
+instagram-profile: 95wooseong # Add instagram username
 
 #-------------------------------
 # Google Analytics
