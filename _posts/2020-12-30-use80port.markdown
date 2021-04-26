@@ -1,0 +1,38 @@
+---
+layout: post
+title: "8080 포트가 이미 사용 중??"
+date: 2020-12-30 15:19:00 +0300
+image: use80.png
+tags: Server
+---
+
+## 시작하는 말  
+
+ 가끔 서버를 시작할때면 캡쳐화면과 같이(Port 8080) 에러가 발생할 때가 있다.
+
+***
+
+## 8080 포트를 이미 사용 중일때 해결 방법  
+
+cmd 창을 이용해 8080 포트를 사용중인 프로세스를 강제로 Kill을 한다.  
+
+
+## 순서 및 명령어
+
+1. netstat -ano | find "8080" (netstat 명령어로 네트워크의 열려있는 포트를 확인한다.)  
+
+2. 확인하고자 하는 포트에 해당하는 PID를 확인한다.  
+
+3. taskkill /f /pid 3240  
+
+끝!
+
+이렇게 간단히 8080포트를 사용중인 프로세스를 종료시키고 다시 실행하면 서버가 잘 실행될 것이다. 
+
+***
+
+#### 오늘 성장에 도움을 주신 개발자분  
+
+[출처]https://m.blog.naver.com/PostView.nhn?blogId=todangs&logNo=220663873930&proxyReferer=https:%2F%2Fwww.google.com%2F) https://m.blog.naver.com/PostView.nhn?blogId=todangs&logNo=220663873930&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+오늘도 감사합니다.
