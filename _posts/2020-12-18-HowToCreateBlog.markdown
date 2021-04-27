@@ -50,13 +50,13 @@ Repository Setting에서 GitHub Pages 창 설정하면 끝.
 ##### GitHub Pages 설정 방법  
 
 1. GitHub Repository의 setting으로 들어가기
-![1번](../images/gb1.PNG)  
+![1번](../../images/gb1.PNG)  
 
 2. 아래로 내려가서 GitHub Pages의 __Click it out here__ 클릭  
-![2번](../images/gb2.PNG)  
+![2번](../../images/gb2.PNG)  
 
 3. 하기 사진과 같이 url 접속  
-![3번](../images/gb3.PNG)  
+![3번](../../images/gb3.PNG)  
 
 ***
 
