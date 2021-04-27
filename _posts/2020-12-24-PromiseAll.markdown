@@ -22,13 +22,13 @@ Promise.all() 메서드는 순회 가능한 객체에 주어진 모든 프로미
 
 쉽게 그림을 보며 이해해보자. 사용 전(빨간 부분)
 
-![No use Promise All](../images/Nonpromise.png)
+![No use Promise All](/images/Nonpromise.png)
 
 위 그림과 같이 사용 전은 위에 API를 불러온 뒤 다음에 처리한다.
 
 ##### 사용 후
 
-![use Promise All](../images/usePromise.png)
+![use Promise All](/images/usePromise.png)
 
 위 그림은 사용 후 API를 동시에 불러오는 작업을 진행한다.
 
