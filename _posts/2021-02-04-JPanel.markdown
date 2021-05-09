@@ -1,0 +1,27 @@
+---
+layout: post
+title: "JPanel이란"
+date: 2021-02-04 13:20:00 +0300
+image: jpanel.PNG
+tags: Network
+---
+
+## 시작하는 말  
+
+회사에서는 JAVA 단말에서 APP을 AV화면 위에 띄우기 위해 JAVA의 frame을 사용하는 소스도 존재한다. 이때 JPanel도 사용되는데 개념만 간단하게 살펴보았다.
+
+***
+
+## JPanel  
+
+그림과 같이 JFrame이 메인 프레임, JPanel이 보조 프레임, JLabel은 기능 수행 컴포넌트라 생각하면 쉽다.  
+
+레이아웃을 적용해 위치를 지정하기 쉽다.  
+
+***
+
+#### 오늘 성장에 도움을 주신 개발자분  
+
+[출처 : Morph's 블로그](https://m.blog.naver.com/PostView.nhn?blogId=highkrs&logNo=220575148557&proxyReferer=https:%2F%2Fwww.google.com%2F) https://m.blog.naver.com/PostView.nhn?blogId=highkrs&logNo=220575148557&proxyReferer=https:%2F%2Fwww.google.com%2F  
+
+오늘도 감사합니다.
