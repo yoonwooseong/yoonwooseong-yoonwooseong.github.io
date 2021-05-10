@@ -1,9 +1,9 @@
 ---
 #-------------------------------
 # General Site Settings
-title: Wooseong
+title: 습관
 logo: logo.svg # You can add own logo.
-description: 우성이가 공부하며 알게 된 내용을 기록하는 블로그입니다.
+description: 개발자가 되기 위해 기록하는 습관을 기르고자 하는 블로그입니다.
 
 #-------------------------------
 # Author Settings
@@ -11,7 +11,7 @@ author:
   name: Wooseong Yoon
   image: main.jpg
   say-hello: Hello, I’m <strong>Wooseong Yoon</strong>
-  bio: 개발을 하며 새로운 지식을 습득하고 성장하고 있는 모습을 기록하기 위한 블로그입니다.
+  bio: 개발을 하며 새로운 지식을 습득하고 성장하고 있는 모습을 기록하는 습관을 기르고자 하는 블로그입니다.
 
 #-------------------------------
 # Contact links
