@@ -3,7 +3,7 @@ layout: post
 title: "JPanel이란"
 date: 2021-02-04 13:20:00 +0300
 image: jpanel.PNG
-tags: Network
+tags: JAVA
 ---
 
 ## 시작하는 말  
