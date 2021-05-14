@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "DispatcherServlet이란?"
+title: "SerialVersionUID란"
 date: 2021-02-02 17:16:00 +0300
-image: 09.png
+image: SerialVersionUID.jpg
 tags: JAVA
 ---
 
