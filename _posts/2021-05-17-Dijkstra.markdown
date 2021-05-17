@@ -5,7 +5,7 @@ date: 2021-05-17 08:35:00 +0300
 image: 02.jpg
 tags: Algorithm
 ---
-
+ 
 ## 시작하는 말  
 
 드디어 블로그 이동을 마치고 다시 포스팅할 수 있게 되었습니다. 최근에 공부한 다익스트라 알고리즘을 포스팅하려 합니다. 그럼 틈틈히 작성 시작하겠습니다.
@@ -24,7 +24,8 @@ tags: Algorithm
 
 ## 2차원 배열로 구현한 예제 (JAVA)  
 
-~~~Java
+~~~ Java
+
 public class Dijkstra {
 	
 	private static final int MY_LOCATION = 1; //시작점
@@ -35,7 +36,7 @@ public class Dijkstra {
 	
 	public static void main(String[] args) {
 	   int N = 5;	//노드의 갯수
-	   int[][] road = {{1,2,1},{2,3,3},{5,2,2},{1,4,2},{5,3,1},{5,4,2}};//연결 노드
+	   //int[][] road = {{1,2,1}, {2,3,3}, {5,2,2}, {1,4,2}, {5,3,1}, {5,4,2}};//연결 노드
 	   int result = solution(N, road);
 
 	   System.out.println(result);
@@ -102,7 +103,7 @@ public class Dijkstra {
 
 #### 오늘 성장에 도움을 주신 개발자분  
 
-[출처](https://matice.tistory.com/56) https://matice.tistory.com/56
-[출처](https://bumbums.tistory.com/4) https://bumbums.tistory.com/4
+[출처](https://matice.tistory.com/56) https://matice.tistory.com/56  
+[출처](https://bumbums.tistory.com/4) https://bumbums.tistory.com/4  
 
 오늘도 감사합니다.  
