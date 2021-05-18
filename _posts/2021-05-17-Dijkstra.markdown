@@ -43,17 +43,14 @@ tags: Algorithm
 
 ## 2차원 배열로 구현한 예제 (JAVA)  
 
-~~~ Java
+~~~java
 
 	private static final int MY_LOCATION = 1; //시작점
 	private static final int DESTINATION = 5; //목적지
 	private static final int START = 0;		  //x
 	private static final int END = 1;		  //y
 	private static final int DISTANCE = 2;	  //가중치
-	
-~~~
 
-~~~ Java
 	public static int solution(int n, int[][] road) {
 		
 		int maps[][] = new int[n+1][n+1];		//Map
