@@ -10,7 +10,7 @@ tags: HTML
 
 object 태그는 HTML안에 멀티미디어 객체, 다른 HTML문서나 pdf, 플러그인을 넣을 수 있는 태그이다. 그러나 object는 iframe을 사용할 수 없을 상황에 쓰이는 퇴화 태그로 간주된다. object태그는 설정을 업데이트 해도 반영되지 않는다.  
 
-~~~HTML
+~~~html
 <div id="orgBroadcast" class="sizeclass" style="position: absolute; top: 0px; left: 0px; width: 1280px; height: 720px;">
 	<object id="broadcast" type="video/broadcast" style="position: absolute; width: 100%; height: 100%;">
 		<param name="zindex" value="0" />
