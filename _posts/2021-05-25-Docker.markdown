@@ -1,0 +1,78 @@
+---
+layout: post
+title: "Docker Image, container, file "
+date: 2021-05-25 08:25:00 +0300
+image: doclogo.png
+tags: OS
+---
+ 
+## 시작하는 말  
+
+회사를 다니며 시간날때마다 짬짬히 사이드 프로젝트를 진행하며 공부하고 있다. 이번 Stocking 프로젝트에서는 사용해보지 않았던 Docker를 이용해 AWS에 인프라를 구축하기로 하여 공부하게 되었으며, 회사에서도 Docker를 사용하기 때문에 알아두면 좋을 것 같았다.
+
+***
+
+## 도커란?  
+
+도커의 정의는 다음과 같다. 리눅스의 응용 프로그램들을 프로세스 격리 기술들을 사용해 컨테이너로 실행하고 관리하는 오픈 소스 프로젝트이다.  
+
+도커를 이해하는데는 시간이 조금 걸렸으며 아직 완벽히 이해하고 있지 않을 수도 있다. 그래도 도커를 왜 사용하는지 그리고 도커의 중요한 개념이라는 이미지와 컨테이너를 알면 조금이나마 도움이 될 것이다.
+
+***
+
+## 왜 도커를 사용하나?  
+
+![doc1](/images/doc1.PNG)  
+
+기존에 우리는 AWS에 웹서비스를 이용해서 배포하였지만 특정한 서버 환경에 우리의 프로젝트 설정을 맞춰서 배포해야 했다.  
+
+또 다른 AWS EC2 컴퓨터로 옮기면 다시 똑같이 설정을 해야 하는 것 처럼 서버마다 각각 설정해야 하는 낭비가 있다.  
+
+하지만 도커는 이를 코드로 규격화해 정의한다. 그것이 곧 이미지이다.  
+
+***
+
+## Docker Image - Container - DockerHub 연관 관계  
+
+![doc2](/images/doc2.PNG)  
+Docker Host는 Docker run 명령어를 실행할 컴퓨터
+
+1. 우리가 만든 __도커허브 레퍼지토리__ 에 우리가 도커 이미지를 만들어 저장한다.  
+
+2. 우리가 만든 __도커 이미지__ 를 받기 위해 도커허브의 레퍼지토리를 __pull__ 받는다.  
+
+3. 받은 이미지를 __run__ 명령어로 실행시키면 __컨테이너__ 가 된다.
+(예를 들어 이미지는 __실행파일__ 이라 생각하고 컨테이너는 그것을 __실행한 상태__ 라고 생각하면 될 것 같다.)  
+
+
+### 그런데 Docker file은 뭐죠?  
+
+Docker file은 docker Image를 만들기 위한 명령어 집합이다.
+이 Docker file을 빌들하면 Docker Image가 만들어지고 그 이미지를 도커 허브 레퍼지토리에 저장한다.  
+
+```
+FROM ubuntu:14 .04 (ubuntu 설치)  
+RUN apt-get update (패키지 업데이트)  
+RUN apt-get install -y nginx (nginx 설치)  
+WORKDOR /nginx (경로 설정)  
+CMD ["","",""] (실행하고자 하는 명령어)  
+EXPOSE 80  
+```
+
+도커파일의 작성은 아직도 어렵다..  
+
+***
+
+#### 성장에 도움을 주신 많은 개발자분 감사합니다!
+
+[출처 1 : ](https://hanhyx.tistory.com/27) https://hanhyx.tistory.com/27  
+
+[출처 2 : ](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html) https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html  
+  
+[출처 3 : ](https://hoon93.tistory.com/48) https://hoon93.tistory.com/48  
+
+[출처 4 : ](https://tech.osci.kr/2020/03/23/91695884/) https://tech.osci.kr/2020/03/23/91695884/  
+
+[출처 5 : ](https://velog.io/@ckstn0777/%EB%8F%84%EC%BB%A4%ED%8C%8C%EC%9D%BCDockerfile) https://velog.io/@ckstn0777/%EB%8F%84%EC%BB%A4%ED%8C%8C%EC%9D%BCDockerfile  
+
+오늘도 감사합니다.  
