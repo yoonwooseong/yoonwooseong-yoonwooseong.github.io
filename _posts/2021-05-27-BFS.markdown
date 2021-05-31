@@ -2,7 +2,7 @@
 layout: post
 title: "BFS란?"
 date: 2021-05-27 08:20:00 +0300
-image: 02.png
+image: 02.jpg
 tags: Algorithm
 ---
 

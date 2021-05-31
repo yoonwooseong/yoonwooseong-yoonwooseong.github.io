@@ -17,24 +17,26 @@ tags: Docker
 
 먼저 Docker의 라이프 사이클이다.  
 
-![dockerLifeCycle](/images/doc1.PNG)  
+![dockerLifeCycle](/images/dockerLifeCycle.png)  
  
 해당 라이프 사이클을 docker의 command로 수행할 수 있으며 명령어는 다음과 같다.  
 
-```
- - docker pull {image name}      // Docker hub에서 사용할 이미지를 받아온다.  
- - docker run -d -p 80:80 {docker hub id}/{repository name}:latest // 받아온 Docker image를 실행하여 컨테이너로 만든다. (포워딩)
-   - 'Ctrl + d'                  // 쉘 종료 - 컨테이너 종료  
-   - 'Ctrl + p' + 'Ctrl + q'     // 컨테이너가 살아 있는 채로 Host OS로 복귀  
 
- - docker ps (-a)                // 실행중인(생성된) 컨테이너 목록 확인  
- - docker start                  // docker 시작  
+ - `docker pull {image name}`      // Docker hub에서 사용할 이미지를 받아온다.  
+ - `docker run -d -p 80:80 {docker hub id}/{repository name}:latest`   
+    // 받아온 Docker image를 실행하여 컨테이너로 만든다. (포워딩)
+    `'Ctrl + d'`                  // 쉘 종료 - 컨테이너 종료  
+    `'Ctrl + p' + 'Ctrl + q'`     // 컨테이너가 살아 있는 채로 Host OS로 복귀  
 
- - docker images                 // 현재 Host PC에 받은 image들을 보여준다. (Size가 작은 이유 : Docker 이미지에는 커널이 포함되어 있지 않고 실행하기 위한 파일만 존재)
- - docker attach "container ID"  // 컨테이너 접속
- - docker stop "container ID"    // 컨테이너 종료
- - docker rm "container ID"      // 컨테이너 삭제
-```
+ - `docker ps (-a)`               // 실행중인(생성된) 컨테이너 목록 확인  
+ - `docker start`                 // docker 시작  
+
+ - `docker images`                   
+    // 현재 Host PC에 받은 image들을 보여준다. (Size가 작은 이유 : Docker 이미지에는 커널이 포함되어 있지 않고 실행하기 위한 파일만 존재)
+ - `docker attach "container ID"`  // 컨테이너 접속
+ - `docker stop "container ID"`    // 컨테이너 종료
+ - `docker rm "container ID"`      // 컨테이너 삭제
+
 
 ---
 
