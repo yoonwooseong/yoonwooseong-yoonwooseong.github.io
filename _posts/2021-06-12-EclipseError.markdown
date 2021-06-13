@@ -19,16 +19,16 @@ Description Resource Path Location Type Project at 'D:\Project\stocking-backend'
 ## 해결 방법
 
 다음과 같은 에러가 발생할때는 아래의 순서대로 해결하면 된다.  
-![eclipseerror](/images/ee1.png)
+![eclipseerror](/images/ee1.PNG)
 
 1. 프로젝트의 settings.gradle을 2번과 같이 수정한다.  
-   ![eclipseerror](/images/ee2.png)
+   ![eclipseerror](/images/ee2.PNG)
 
 2. rootProject.name을 맞게 설정해준다.  
-   ![eclipseerror](/images/ee3.png)
+   ![eclipseerror](/images/ee3.PNG)
 
 3. 그리고 난 뒤 Refresh Gradle Project를 해준다.  
-   ![eclipseerror](/images/ee4.png)
+   ![eclipseerror](/images/ee4.PNG)
 
 끝. 간단한 에러 수정방법이다.
 
