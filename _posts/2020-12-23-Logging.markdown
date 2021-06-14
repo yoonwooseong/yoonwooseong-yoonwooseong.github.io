@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Logging 하는법?"
+title:  "Log, logging이란?"
 date:   2020-12-23 15:22:00 +0300
 image:  08.jpg
 tags:   Java

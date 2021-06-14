@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "npm이란?"
+title:  "NPM이란?"
 date:   2020-12-23 15:00:00 +0300
 image:  npm.png
 tags:   javaScript

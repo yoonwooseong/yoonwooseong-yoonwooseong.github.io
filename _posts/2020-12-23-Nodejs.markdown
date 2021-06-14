@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nodejs란?"
+title:  "Node.js란?"
 date:   2020-12-23 15:50:00 +0300
 image:  nodejs.png
 tags:   javaScript

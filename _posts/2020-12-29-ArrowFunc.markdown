@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arrow Function?"
+title: "Arrow Function(화살표 함수 () => )?"
 date: 2020-12-29 17:40:00 +0300
 image: arrow.png
 tags: javaScript
