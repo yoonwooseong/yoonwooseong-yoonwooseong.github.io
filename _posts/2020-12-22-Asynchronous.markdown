@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JS-비동기(1) : 비동기와 동기"
+title:  "[JS] 비동기와 동기"
 date:   2020-12-22 10:00:00 +0300
 image:  05.jpg
 tags:   javascript

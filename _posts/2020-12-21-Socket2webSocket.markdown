@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Socket(2) Web Socket(웹소켓)이란?"
+title:  "웹소켓이란?(Web Socket) Socket(2)"
 date:   2020-12-21 10:50:00 +0300
 image:  websocket.png
 tags:   Network

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Github Blog를 만들어보자"
+title:  "Github 블로그 만들기"
 date:   2020-12-18 13:47:55 +0300
 image:  10.jpg
 tags:   Jekyll

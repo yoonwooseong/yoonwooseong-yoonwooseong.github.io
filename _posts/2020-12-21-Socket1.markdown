@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Socket(1) 소켓이란?"
+title:  "소켓이란? Socket(1)"
 date:   2020-12-21 10:19:00 +0300
 image:  04.jpg
 tags:   Network

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JS-비동기(3) : async와 await?"
+title:  "[JS] async와 await?"
 date:   2020-12-22 11:00:00 +0300
 image:  07.jpg
 tags:   javascript
