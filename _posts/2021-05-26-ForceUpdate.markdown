@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vue $forceUpdate, $NextTick"
+title: "Vue $forceUpdate, $NextTick이란?"
 date: 2021-05-26 08:20:00 +0300
 image: vue.png
 tags: Vue

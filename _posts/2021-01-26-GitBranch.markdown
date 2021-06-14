@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git branch?"
+title: "Git branch"
 date: 2021-01-26 11:40:00 +0300
 image: branch.png
 tags: Git

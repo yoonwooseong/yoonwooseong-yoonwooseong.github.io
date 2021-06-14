@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Eclipse] Gradle Import"
+title: "[Eclipse] Gradle Import 하는 법"
 date: 2021-06-11 09:45:00 +0300
 image: 05.jpg
 tags: Gradle

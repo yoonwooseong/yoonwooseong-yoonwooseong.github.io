@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "event.stopPropagation이란?"
+title: "[javascript] event.stopPropagation이란?"
 date: 2021-03-29 14:40:00 +0300
 image: stopPropagation.png
 tags: javascript

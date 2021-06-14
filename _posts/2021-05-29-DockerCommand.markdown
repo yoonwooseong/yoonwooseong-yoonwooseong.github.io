@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Docker command"
+title: "Docker 명령어"
 date: 2021-05-29 17:40:00 +0300
 image: docker-logo.png
 tags: Docker

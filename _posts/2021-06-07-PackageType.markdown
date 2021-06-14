@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "패키지 유형"
+title: "패키지 유형 알아보기"
 date: 2021-06-07 08:53:00 +0300
 image: 02.jpg
 tags: Spring

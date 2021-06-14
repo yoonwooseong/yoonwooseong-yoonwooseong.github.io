@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web Server와 WAS차이"
+title: "Web Server와 WAS의 차이"
 date: 2021-02-03 15:25:00 +0300
 image: wswas.png
 tags: Network

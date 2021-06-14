@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Eclipse] renaming project error"
+title: "[Eclipse] renaming project error 발생 시 해결방법"
 date: 2021-06-12 23:10:00 +0300
 image: 06.jpg
 tags: Eclipse

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java로 Queue를 사용해보자"
+title: "Java로 Queue를 사용해보자."
 date: 2021-03-26 08:23:00 +0300
 image: queue.png
 tags: Java

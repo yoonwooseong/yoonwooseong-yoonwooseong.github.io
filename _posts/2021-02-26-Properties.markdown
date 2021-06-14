@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "java.util.properties"
+title: "java.util.properties 란?"
 date: 2021-02-26 08:05:00 +0300
 image: 03.jpg
 tags: JAVA

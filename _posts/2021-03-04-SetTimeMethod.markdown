@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "setTimeout, setInterval, clearInterval"
+title: "setTimeout, setInterval, clearInterval 메서드"
 date: 2021-03-04 08:20:00 +0300
 image: settimeout.png
 tags: javascript

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "jcef.dll 관련 에러 발생 시"
+title: "jcef.dll 에러 발생 시"
 date: 2021-01-07 13:22:00 +0300
 image: 09.jpg
 tags: JAVA

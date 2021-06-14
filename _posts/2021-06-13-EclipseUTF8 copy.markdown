@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Eclipse] 한글 깨짐 해결"
+title: "[Eclipse] 한글 깨짐 해결방법"
 date: 2021-06-13 16:00:00 +0300
 image: 07.jpg
 tags: Eclipse
