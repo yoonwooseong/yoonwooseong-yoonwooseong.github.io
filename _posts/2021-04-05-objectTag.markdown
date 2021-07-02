@@ -6,6 +6,10 @@ image: objectImg.jpg
 tags: HTML
 ---
 
+## 시작하기 전에
+
+회사에서 라이브 커머스를 담당하게 되었는데 object 태그의 type을 video/mpeg를 써 data를 보내 구현하였다. 이때 처음 object를 접하게 되었는데 접하지 못한 개발자들을 위해 간단히 object에 대해 알아보자.
+
 ## object 태그란?  
 
 object 태그는 HTML안에 멀티미디어 객체, 다른 HTML문서나 pdf, 플러그인을 넣을 수 있는 태그이다. 그러나 object는 iframe을 사용할 수 없을 상황에 쓰이는 퇴화 태그로 간주된다. object태그는 설정을 업데이트 해도 반영되지 않는다.  
