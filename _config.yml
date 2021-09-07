@@ -6,8 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Yoon wooseong
-title: Back-end Developer
+name: 윤우성
+title: Java 백엔드 개발자
 email: dntjd851@naver.com
 # email_title: Email (Email title override)
 phone:
@@ -19,25 +19,25 @@ website: https://kku-jun.tistory.com/
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username: yoonwooseong
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: 95wooseong
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-  - title: Link name
-    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-    url: Link url (eg. https://google.com)
+# additional_links:
+#   - title: Link name
+#     icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#     url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,13 +52,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Java & Spring 기반의 백엔드 개발자로 
+  토이 프로젝트 API 개발 및 데이터 크롤링을 해왔습니다.<br>
+  현재는 T-커머스의 내부의 라이브커머스와 서비스앱 개발 및 유지보수 등을 주요 업무로 하고 있습니다.<br>
+  주니어 개발자로써 꾸준하게 배워야 한다는 생각에 Vue뿐 아니라 Spring Data JPA, 테스트코드 작성 등 계속 성장하고 있습니다.<br>
+  
 
 content:
   - title: Projects # Title for the section
