@@ -59,25 +59,39 @@ about_content: | # this will include new lines to allow paragraphs
   
 
 content:
-  - title: Projects # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Aircode
+        sub_title: 서비스개발
+        caption: 2020.12 - present
+        link: https://www.aircode.com/kr/index.php
+        link_text: https://www.aircode.com/kr/index.php
+        # additional_links:
+        #   - title: Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title: Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          T-커머스 클라우드 어플리케이션 서비스
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+            * Live Stream 개발
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  - title: Skill
     layout: list
     content:
       - layout: right
