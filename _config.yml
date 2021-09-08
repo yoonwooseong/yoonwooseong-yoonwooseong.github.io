@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
   토이 프로젝트 API 개발 및 데이터 크롤링을 해왔습니다.<br>
   현재는 T-커머스의 내부의 라이브커머스와 서비스앱 개발 및 유지보수 등을 주요 업무로 하고 있습니다.<br>
   주니어 개발자로써 꾸준하게 배워야 한다는 생각에 Vue뿐 아니라 Spring Data JPA, 테스트코드 작성 등 계속 성장하고 있습니다.<br>
-  
+  능숙하게 데이터를 다루는 것은 기본으로 많은 성능 향상을 가능캐 하는 개발자를 목표로 성장하고 있습니다.
 
 content:
   - title: Experience # Title for the section
@@ -79,41 +79,85 @@ content:
           T-커머스 클라우드 어플리케이션 서비스
         description: | # this will include new lines to allow paragraphs
             * Live Stream 개발
+            * 고객 쇼핑사 서비스 앱 유지보수
+            * 사내 프로젝트 개발 참여
+            * Vue.js 개발 경험
   - title: Projects
     layout: list
     content:
       - layout: left
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: 팀
+        sub_title: Beauty in Side
+        link: https://github.com/Beauty-inside
         quote: >
-          Short description of the company (optional)
+          개발자 역량을 기르고자 주식 & 자산 관리 매니저 앱 프로젝트
         description: | # this will include new lines to allow paragraphs
-          Description of role
+            * 자산 관리 API 개발
+            * Chart 라이브러리를 통한 UI 개발
+            * ERD 구조 및 API 인터페이스 작성
+      - layout: left
+        title: 팀
+        sub_title: DevengersAssemble
+        caption: 2020.08 - 2020.09
+        link: https://github.com/DEVengersAssemble
+        quote: >
+          Airbnb clone 프로젝트 (Back-end part)
+        description: | # this will include new lines to allow paragraphs
+            * 숙소 검색 API 개발
+            * 지도 검색 및 조건 필터 API 개발
+            * 검색 지역 자동완성 API 개발
+            * 최근 본 목록 기능 개발
+      - layout: left
+        title: 개인
+        caption: 2020.08 - 2020.08
+        link: https://github.com/yoonwooseong/Airdnd-Crawler
+        quote: >
+          Airbnb의 등록된 300건 이상의 검색결과 및 숙소 상세 정보 크롤링 Web
+        description: | # this will include new lines to allow paragraphs
+            * 숙소 및 호스트, 리뷰 정보 크롤링 개발
+            * DB 자동 등록 기능
+            * Flask를 이용한 검색 조건 기능
   - title: Skill
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: top
         quote: >
-          Short description of the company (optional)
+          현재 업무에 사용중 혹은 사용했던 기술들입니다.
+      - layout: left
+        title: Backend
         description: | # this will include new lines to allow paragraphs
-          Description of role
+            * Java, Python
+            * Spring MVC, Spring Boot, Spring Data JPA, Flask
+            * Gradle, Maven
+            * Eclipse, Visual studio Code
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+            * MySQL, OracleDB
+            * Jenkins
+            * AWS EC2, Docker
+            * Tomcat
+            * Git, SVN
+      - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+            * Vue.js, Vue Cli
+            * Npm
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        title: Korea IT Academy
+        sub_title: 백엔드 개발 과정 & Python 과정
+        caption: 2020.02-2020.07
         quote: >
-          Short institution or course description (optional)
+          Java, Spring framework를 이용한 백엔드 개발 / Python 기초
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+            * 날씨별 옷차림을 추천해주는 Android APP 개발
+            * Java, Spring으로 영화사이트
+            * Java만 활용한 행맨 게임
+            * Python 기초
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
