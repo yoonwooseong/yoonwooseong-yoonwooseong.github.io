@@ -78,11 +78,11 @@ content:
         quote: >
           T-커머스 클라우드 어플리케이션 서비스
         description: | # this will include new lines to allow paragraphs
-            * Live Stream 개발
-            * 각 홈쇼핑사 서비스 개발 
-            * 사내 프로젝트 개발 참여
-            * Vue.js 개발 경험
-            * 다양한 플랫폼 별 DevOps 사용 경험
+          * Live Stream 개발
+          * 각 홈쇼핑사 서비스 개발 
+          * 사내 프로젝트 개발 참여
+          * Vue.js 개발 경험
+          * 다양한 플랫폼 별 DevOps 사용 경험
   - title: Projects
     layout: list
     content:
@@ -93,9 +93,9 @@ content:
         quote: >
           개발자 역량을 기르고자 주식 & 자산 관리 매니저 앱 프로젝트
         description: | # this will include new lines to allow paragraphs
-            * 자산 관리 API 개발
-            * Chart 라이브러리를 통한 UI 개발
-            * ERD 구조 및 API 인터페이스 작성
+          * 자산 관리 API 개발
+          * Chart 라이브러리를 통한 UI 개발
+          * ERD 구조 및 API 인터페이스 작성
       - layout: left
         title: 팀
         sub_title: DevengersAssemble
@@ -104,10 +104,10 @@ content:
         quote: >
           Airbnb clone 프로젝트 (Back-end part)
         description: | # this will include new lines to allow paragraphs
-            * 숙소 검색 API 개발
-            * 지도 검색 및 조건 필터 API 개발
-            * 검색 지역 자동완성 API 개발
-            * 최근 본 목록 기능 개발
+          * 숙소 검색 API 개발
+          * 지도 검색 및 조건 필터 API 개발
+          * 검색 지역 자동완성 API 개발
+          * 최근 본 목록 기능 개발
       - layout: left
         title: 개인
         caption: 2020.08 - 2020.08
@@ -115,9 +115,9 @@ content:
         quote: >
           Airbnb의 등록된 300건 이상의 검색결과 및 숙소 상세 정보 크롤링 Web
         description: | # this will include new lines to allow paragraphs
-            * 숙소 및 호스트, 리뷰 정보 크롤링 개발
-            * DB 자동 등록 기능
-            * Flask를 이용한 검색 조건 기능
+          * 숙소 및 호스트, 리뷰 정보 크롤링 개발
+          * DB 자동 등록 기능
+          * Flask를 이용한 검색 조건 기능
   - title: Skill
     layout: list
     content:
@@ -127,23 +127,23 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-            * Java, Python
-            * Spring MVC, Spring Boot, Spring Data JPA, Flask
-            * Gradle, Maven
-            * Eclipse, Visual studio Code
+          * Java, Python
+          * Spring MVC, Spring Boot, Spring Data JPA, Flask
+          * Gradle, Maven
+          * Eclipse, Visual studio Code
       - layout: left
         title: DevOps
         description: | # this will include new lines to allow paragraphs
-            * MySQL, OracleDB
-            * Jenkins
-            * AWS EC2, Docker
-            * Tomcat
-            * Git, SVN
+          * MySQL, OracleDB
+          * Jenkins
+          * AWS EC2, Docker
+          * Tomcat
+          * Git, SVN
       - layout: left
         title: Frontend
         description: | # this will include new lines to allow paragraphs
-            * Vue.js, Vue Cli
-            * Npm
+          * Vue.js, Vue Cli
+          * Npm
   - title: Education
     layout: list
     content:
@@ -154,11 +154,18 @@ content:
         quote: >
           Java, Spring framework를 이용한 백엔드 개발 / Python 기초
         description: | # this will include new lines to allow paragraphs
-            * 날씨별 옷차림을 추천해주는 Android APP 개발
-            * Java, Spring으로 영화사이트
-            * Java만 활용한 행맨 게임
-            * Python 기초
-
+          * 날씨별 옷차림을 추천해주는 Android APP 개발
+          * Java, Spring으로 영화사이트
+          * Java만 활용한 행맨 게임
+          * Python 기초
+      - layout: left
+        title: 인프런
+        sub_title: Spring Data JPA
+        caption: 2021.09-2021.10
+        quote: >
+          Spring Data JPA
+        description: | # this will include new lines to allow paragraphs
+          * 인터페이스만으로 개발 가능한 CRUD 기능 제공
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
