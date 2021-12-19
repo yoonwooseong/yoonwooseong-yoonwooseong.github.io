@@ -169,9 +169,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      개발을 시작하기에 부족했던 20년도에는 1일 1커밋을 목표로 개발을 시작하였고, 동시에 배경지식을 쌓기 위해 정보처리기사도 
+      병행하였습니다. 21년도에는 실제로 개발을 시작하고자 T커머스 회사에 입사하였고 새로운 프로젝트 사업에 합류할 수 있었습니다. 또한 
+      입사해서 새로 배우고 접할 수 있었던 지식들은 블로그를 통해 정리하였습니다.
+      맞이하는 22년도 목표는 회사에서 성과를 도출하는 것이고, 개인적으로는 Spring Data JPA를 능숙하게 사용할 수 있도록 개인 프로젝트를
+      완성하는 것입니다.
 
 # Footer
 footer_show_references: true
